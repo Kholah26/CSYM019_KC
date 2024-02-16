@@ -1,0 +1,13 @@
+.myClass{
+
+    background-color: skyblue;
+    float: left; 
+    width: 50%;
+}
+
+.myClass2{
+
+    background-color: yellow;
+    float :right;
+    width: 50%;
+}
