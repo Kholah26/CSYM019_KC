@@ -27,11 +27,8 @@ header {
         grid-template-columns: 20% 60% 20%;
         grid-template-rows: auto;
         grid-template-areas: "header header header"
-         "nav nav nav" "main main aside"
+         "nav main main"
          "footer footer footer";
         }
             
-    a {
-
-        padding: 210px;
-    }
+   
