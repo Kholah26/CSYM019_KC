@@ -12,10 +12,12 @@ header {
     background-color: darkblue;
     color: white;
     grid-area: main;
+    
     }
     aside {
     background-color: lightgreen;
     grid-area: aside;
+    
     }
     footer {
     background-color: darkgreen;
@@ -24,11 +26,14 @@ header {
     }
     body {
         display: grid;
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: auto;
-        grid-template-areas: "header header header"
-         "nav main main"
-         "footer footer footer";
+        grid-template-areas: "header header"
+         "nav nav" "main aside"
+         "footer footer";
         }
             
-   
+    a {
+
+        padding: 210px;
+    }
