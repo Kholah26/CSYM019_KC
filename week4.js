@@ -1,14 +1,24 @@
-function myLoadFunction(){
+function UpdateHeading(){
 
-    var element = document.getElementById('pageheading');
+    var element = document.getElementById('ph');
+element.firstChild.nodeValue='new heading';
+}
+function UpdateParagraph(){
 
-    element.firstChild.nodeValue = 'new heading';
-
-    var element = document.getElementById('pageparagraph');
-
-    element.firstChild.nodeValue = 'new paragraph';
+var element = document.getElementById('pp');
+element.firstChild.nodeValue='new paragraph text';
 }
 
-document.addEventListener('click', myLoadFunction);
+
+function myLoadFunction(){
+    var element = document.getElementById('ph');
+    element.addEventListener('click',UpdateHeading );
+
+    var element = document.getElementById('pp');
+    element.addEventListener('click',UpdateParagraph );
+    
+}
+
+document.addEventListener('DOMContentLoaded', myLoadFunction);
 
 
