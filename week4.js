@@ -12,10 +12,10 @@ element.firstChild.nodeValue='new paragraph text';
 
 function myLoadFunction(){
     var element = document.getElementById('ph');
-    element.addEventListener('click',UpdateHeading );
+    element.addEventListener('mouseenter',UpdateHeading );
 
     var element = document.getElementById('pp');
-    element.addEventListener('click',UpdateParagraph );
+    element.addEventListener('mouseenter',UpdateParagraph );
     
 }
 
