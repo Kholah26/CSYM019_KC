@@ -1,12 +1,10 @@
-function Print5(){
+function myLoadFunction(){
 
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
-console.log(5);
+    var element = document.getElementById('pageheading');
 
-
+    element.firstChild.nodeValue = 'new heading';
 }
-Print5();
-Print5();
+
+document.addEventListener('DOMContentLoaded', myLoadFunction);
+
+
