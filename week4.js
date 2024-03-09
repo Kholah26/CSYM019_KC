@@ -9,6 +9,6 @@ function myLoadFunction(){
     element.firstChild.nodeValue = 'new paragraph';
 }
 
-document.addEventListener('DOMContentLoaded', myLoadFunction);
+document.addEventListener('click', myLoadFunction);
 
 
