@@ -1,14 +1,12 @@
-function ClickEvent(){
-
-    setInterval( myIntervalFunction, 10); }
-
-function myIntervalFunction(){
+function ClickEvent(){    
 var element = document.getElementById('circle');
-var circleOpacity = parseFloat(element.style.opacity);
-element.style.opacity = circleOpacity - 0.01;
+var PositionLeft = element.offsetLeft ;
+element.style.left = PositionLeft - 10 + 'px';
 
 
-    }
+}
+
+
     function myLoadFunction(){
         var element = document.getElementById('circle');
         element.addEventListener('click',ClickEvent );
