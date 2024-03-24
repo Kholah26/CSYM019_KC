@@ -1,6 +1,6 @@
 function ClickEvent(){
-
-    alert('The circle is clicked');
+var element = document.getElementById('circle')
+    element.style.backgroundColor = 'blue';
     }
     function myLoadFunction(){
         var element = document.getElementById('circle');
