@@ -2,13 +2,13 @@
 function DisplayValue(){
 
 var element = document.getElementById('myinput');
-var divelement=document.getElementById('div');
+var divs=document.getElementById('div');
 
-divelement.firstChild.nodeValue = element.value;
+divs.firstChild.nodeValue = element.value;
 }
 function myLoadFunction(){
     var element = document.getElementById('mybutton');
-    element.addEventListener('click',DisplayValue );
+    element.addEventListener('keyup',DisplayValue );
 
     
 }
